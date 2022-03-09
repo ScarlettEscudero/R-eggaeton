@@ -1,11 +1,11 @@
 ---
-title: "R-eggueton viejo y nuevo: ¿Utiliza palabras misóginas?"
+title: "R-eggaetón viejo y nuevo: ¿Utiliza palabras misóginas?"
 author: "Realizado por Scarlett Escudero"
 date: "8/03/2022"
 output: html_document
 ---
 
-Se suele decir que el reggueton es más progresivo y menos misógino hoy en día que en sus orígenes. Decidimos analizar esta afirmación mediante el análisis de las canciones de 4 artistas del género regguetón: Bad Bunny, J Balvin, Daddy Yankee y Wisin y Yandel. Los dos primeros siendo artistas más recientes de este género y los dos últimos con mayor trayectoria musical.
+Se suele decir que el reggaetón es más progresivo y menos misógino hoy en día que en sus orígenes. Decidimos analizar esta afirmación mediante el análisis de las canciones de 4 artistas del género reggaetón: Bad Bunny, J Balvin, Daddy Yankee y Wisin y Yandel. Los dos primeros siendo artistas más recientes de este género y los dos últimos con mayor trayectoria musical.
 
 
 ```{r, include=FALSE}
@@ -3603,7 +3603,7 @@ canciones_wisin_yandel0 %>%
 
 # Conclusiones
 
-En cuanto a la media de la baileabilidad, energía y valencia en promedio de los 4 artistas, encontramos que son muy similares. Esto con la excepción de Bad Bunny que tiene una energía ligeramente más baja en comparación con los demás.
+Respecto a la media de la baileabilidad, energía y valencia en promedio de los 4 artistas, encontramos que son muy similares. Esto con la excepción de Bad Bunny que tiene una energía ligeramente más baja en comparación con los demás.
 El álbum de "X 100PRE" de Bad Bunny, "2K20 parte 2" de Daddy Yankee y "Wisin y Yandel y Amigos" y "Wisin y Yandel en vivo" de Wisin y Yandel parecen tener la menor positividad en comparación del resto de sus álbumes.
 
 En cuanto a la frecuencia de palabras, podemos observar que en 3 de 4 artistas las palabras *baby*, *bebé* y *mami* son de las principales repetidas. Estas palabras en el contexto de las canciones tienen una connotación de infantilización de la mujer (las primeras dos) y sexualización de la mujer(en el caso de mami). Otras palabras suelen tener un tono sexual, como es el caso de *rakata*, *gasolina*,*cuerpo* y *poom¨*.
